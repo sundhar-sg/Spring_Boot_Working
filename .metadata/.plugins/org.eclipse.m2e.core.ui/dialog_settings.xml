@@ -26,6 +26,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.springboot.Sample1"/>
 			<item value="com.springboot.SampleProject2"/>
 			<item value="com.springboot.SampleProject"/>
 			<item value="com.springboot.QuickStartProject"/>
@@ -34,6 +35,7 @@
 			<item value="com.springboot"/>
 		</list>
 		<list key="artifactId">
+			<item value="Sample1"/>
 			<item value="SampleProject2"/>
 			<item value="SampleProject"/>
 			<item value="QuickStartProject"/>

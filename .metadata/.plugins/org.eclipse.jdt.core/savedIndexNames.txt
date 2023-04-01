@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\Udemy Courses\Udemy - Spring Boot\.metadata\.plugins\org.eclipse.jdt.core
+3922062443.index
+760091825.index
+2398484581.index
+1865797976.index
+2117424871.index

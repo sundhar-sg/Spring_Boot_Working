@@ -1,6 +1,7 @@
 package com.example.SampleWebApp.cj.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,7 +13,8 @@ public class CoachRESTController {
 	private Coach myCoach;
 	
 	@Autowired
-	public CoachRESTController(Coach theCoach) {
+	// With @Qualifier Annotation
+	public CoachRESTController(@Qualifier("cricketCoach") Coach theCoach) {
 		myCoach = theCoach;
 	}
 	

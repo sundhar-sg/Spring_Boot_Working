@@ -10,5 +10,4 @@ public class CricketCoach implements Coach {
 		// TODO Auto-generated method stub
 		return "Do a daily 15 minutes workout";
 	}
-
 }

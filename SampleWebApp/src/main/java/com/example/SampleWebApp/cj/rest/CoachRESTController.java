@@ -11,15 +11,21 @@ import com.example.SampleWebApp.cj.common.Coach;
 @RestController
 public class CoachRESTController {
 	private Coach myCoach;
+	private Coach anotherCoach;
 	
 	@Autowired
 	// With @Qualifier Annotation
-	public CoachRESTController(@Qualifier("cricketCoach") Coach theCoach) {
+	public CoachRESTController(@Qualifier("swimCoach") Coach theCoach) {
 		myCoach = theCoach;
 	}
 	
 	@GetMapping("/dailyWorkoutCS")
 	public String getDailyWorkout() {
 		return myCoach.getDailyWorkout();
+	}
+	
+	@GetMapping("/checkCS")
+	public String check() {
+		return "Comparing Bean Instances: " +(myCoach == anotherCoach); 
 	}
 }

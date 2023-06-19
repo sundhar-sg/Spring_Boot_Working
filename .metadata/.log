@@ -1091,3 +1091,12 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-19 22:25:52.674
+!MESSAGE Classpath changed for project: SampleRESTAppCD
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-19 22:25:52.722
+!MESSAGE Classpath changed for project: SampleWebApp
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-19 22:26:28.079
+!MESSAGE The workspace will exit with unsaved changes in this session.

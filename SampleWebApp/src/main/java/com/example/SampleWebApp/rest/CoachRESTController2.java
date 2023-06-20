@@ -1,4 +1,4 @@
-package com.example.SampleWebApp.cj.rest;
+package com.example.SampleWebApp.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -87,6 +87,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Project Works\Spring\Spring_Boot_Working\SampleRESTAppCD"/>
 			<item value="C:\Users\2263108\OneDrive - Cognizant\Documents\Spring\Spring_Boot_Working"/>
 		</list>
 		<list key="projectNameTemplate">

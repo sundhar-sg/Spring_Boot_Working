@@ -8,41 +8,42 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.SampleRESTAppCD.dao.EmployeeDAO;
 import com.example.SampleRESTAppCD.entity.Employee;
+import com.example.SampleRESTAppCD.repository.EmployeeRepository;
 
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
-	private EmployeeDAO employeeDAO;
+	private EmployeeRepository employeeRepo;
 	
 	@Autowired
-	public EmployeeServiceImpl(EmployeeDAO theEmployeeDAO) {
-		this.employeeDAO = theEmployeeDAO;
+	public EmployeeServiceImpl(EmployeeRepository theEmployeeRepo) {
+		this.employeeRepo = theEmployeeRepo;
 	}
 	
 	@Override
 	public List<Employee> findAll() {
 		// TODO Auto-generated method stub
-		return employeeDAO.findAll();
+		return this.employeeRepo.findAll();
 	}
 
 	@Override
 	public Employee findByID(int id) {
 		// TODO Auto-generated method stub
-		return employeeDAO.findByID(id);
+		return this.employeeRepo.findById(id).get();
 	}
 
 	@Transactional
 	@Override
 	public Employee save(Employee theEmployee) {
 		// TODO Auto-generated method stub
-		return employeeDAO.save(theEmployee);
+		return this.employeeRepo.save(theEmployee);
 	}
 
 	@Transactional
 	@Override
 	public void deleteByID(int id) {
 		// TODO Auto-generated method stub
-		employeeDAO.deleteByID(id);
+		this.employeeRepo.deleteById(id);
 	}
 }

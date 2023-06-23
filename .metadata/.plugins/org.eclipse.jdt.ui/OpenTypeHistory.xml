@@ -1,10 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
 <typeInfoHistroy/>
-=======
-<typeInfoHistroy>
-    <typeInfo handle="=SampleWebApp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.SampleWebApp.cj.common{Coach.java[Coach" modifiers="513" timestamp="1680797895372"/>
-    <typeInfo handle="=SampleRESTAppCD/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.SampleRESTAppCD.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1683985505169"/>
-    <typeInfo handle="=SampleRESTAppCD/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.SampleRESTAppCD.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1687070006226"/>
-</typeInfoHistroy>
->>>>>>> 06dd86adefa93c67c9e9f87c89c541e36230dfc0

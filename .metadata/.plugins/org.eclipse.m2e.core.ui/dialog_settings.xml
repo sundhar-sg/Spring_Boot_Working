@@ -87,6 +87,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Udemy Courses\Udemy - Spring Boot"/>
+			<item value="D:\Udemy Courses\Udemy - Spring Boot\SampleRESTAppCD"/>
 			<item value="C:\Project Works\Spring\Spring_Boot_Working\SampleRESTAppCD"/>
 			<item value="C:\Users\2263108\OneDrive - Cognizant\Documents\Spring\Spring_Boot_Working"/>
 		</list>
